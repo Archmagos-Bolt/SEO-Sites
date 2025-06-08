@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /green-living.html
+Allow: /event.html
+Allow: /product.html
+
+Sitemap: https://archmagos-bolt.github.io/SEO-Sites/sitemap.xml
