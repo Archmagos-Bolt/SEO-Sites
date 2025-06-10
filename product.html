@@ -38,8 +38,13 @@
       },
       "hasMerchantReturnPolicy": {
         "@type": "MerchantReturnPolicy",
-        "returnPolicyCategory": "https://schema.org/RefundPolicy",
-        "returnPolicySeasonalOverride": "30 days"
+        "returnPolicyCategory": "https://schema.org/ReturnPolicy",
+        "applicableCountry": "LV",
+        "returnPolicySeasonalOverride": {
+          "@type": "MerchantReturnPolicySeasonalOverride",
+          "startDate": "2025-06-01",
+          "endDate": "2025-12-31"
+        }
       }
     },
     "aggregateRating": {
