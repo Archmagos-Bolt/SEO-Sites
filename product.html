@@ -38,8 +38,11 @@
       },
       "hasMerchantReturnPolicy": {
         "@type": "MerchantReturnPolicy",
-        "returnPolicyCategory": "https://schema.org/ReturnPolicy",
-        "applicableCountry": "LV",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "applicableCountry": {
+          "@type": "Country",
+          "name": "LV"
+        },
         "returnPolicySeasonalOverride": {
           "@type": "MerchantReturnPolicySeasonalOverride",
           "startDate": "2025-06-01",
